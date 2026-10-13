@@ -1,5 +1,6 @@
 public class HelloVistula {
     public static void main(String[] args) {
-        System.out.println("bye vistula");
+        String name = args.length > 0 ? args[0] : "vistula";
+        System.out.println("bye " + name);
     }
 }
